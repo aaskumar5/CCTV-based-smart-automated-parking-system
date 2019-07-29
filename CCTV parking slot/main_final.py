@@ -212,7 +212,7 @@ def handle(msg):
 
 
 #-------------------------Digi-server-bot config -------------------------------
-bot = telepot.Bot('768091658:AAFnWx_BPy2sLmc6W8YhLSkhtBmt_zNpgHk')
+bot = telepot.Bot('Bot Api')
 bot.message_loop(handle)
 print ('I am listening...')
 
