@@ -168,7 +168,7 @@ def handle(msg):
                 if(slots[3]=="Not Available"):
                     f4=1
 
-                datafromwebsite4=urllib.urlopen("https://api.thingspeak.com/update?api_key=70HJS9ECYJCTT7X2&f"+'&field1=%s&field2=%s&field3=%s&field4=%s' % (f1, f2,f3,f4));
+                datafromwebsite4=urllib.urlopen("https://api.thingspeak.com/update?api_key=your api"+'&field1=%s&field2=%s&field3=%s&field4=%s' % (f1, f2,f3,f4));
                     
 
                 
